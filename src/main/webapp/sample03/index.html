@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!-- link: 목적->이동 -->
+
+<a href="NewFile.html">NewFile.html로 이동</a>
+<br><br>
+
+<a href="http://zum.com">Zum으로 이동</a>
+<br><br>
+
+<!-- 
+	form : 	link의 목적
+			Javascript에서 접근하기 용의하다
+			
+	값을 전달할 시에 사용되는 attribute
+	id:		현재 페이지에서 하나만 인식. Javascript에서 접근할 목적
+	class:	Javascript에서 접근할 목적. CSS에서 주로 사용된다.  
+	name:	(link시) 값을 전달의 목적
+ -->
+ 
+<form action="NewFile.jsp">
+<input type="hidden" name="mynum" value="336">
+
+아이디:<input type="text" name="id" placeholder="아이디입력"><br>
+패스워드:<input type="password" name="pwd"><br>
+
+<input type="submit" value="이동">
+<input type="reset" value="초기화">
+</form>
+
+<br><br>
+
+<input type="text" placeholder="이름입력">
+<br><br>
+
+<input type="button" value="버튼이름">
+<br><br>
+
+<!-- html5 -->
+<input type="date">
+<br><br>
+
+<input type="range" max="10" min="0">
+<br><br>
+
+<input type="search" placeholder="검색어">
+<br><br>
+
+<input type="color" value="#0000ff">
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

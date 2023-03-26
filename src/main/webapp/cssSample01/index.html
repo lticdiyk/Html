@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+p{
+	background-color: #0000ff;
+	color: rgb(255, 255, 255);
+	font-size: 10pt;
+}
+#title{
+	color: #ff0000;
+	font-size: 50%;
+}
+.content{
+	background-color: green;
+	color: rgb(255,255,0);
+}
+.base{
+	border: solid 1px;
+	padding: 10px;
+	margin: 20px; 
+}
+
+p.name{
+	color: #ffff00;
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- 
+		CSS Cascading Style Sheet
+		문자의 컬러, 종류, 형태지정
+		배경화면컬러, 이미지, 특수처리
+		테두리(border) 설정
+		
+		inline : tag안에 property로 기입
+		internal : head 태그안에 기입
+		external : 외부파일을 읽어들인다
+
+		태그접근
+		id	   #	
+		class  . -> CSS, 복수설정이 가능
+		name
+ -->
+ 
+ 
+<!-- css inline --> 
+<!-- <p style="background-color: #0000ff; color: #ffffff">대설주의보 서울·강원·충북까지 확대</p> --> 
+
+<p>대설주의보 서울·강원·충북까지 확대</p>
+
+<p>대설주의보 서울·강원·충북까지 확대</p>
+
+<h2 id="title">행정안전부는 26일 중부지방을 중심으로 강설이 내리눈</h2>
+
+<h3 class="content">인천, 경기, 충남 지역에 발표됐던 대설주의보</h3>
+
+<div class="content">대설주의보 서울·강원·충북까지 확대</div>
+<br>
+
+<div class="base">
+행안부는 대설·한파가 예상된 지난 23일 오후 7시부로 중앙재난안전대책본부(중대본)를 가동했다가 대설특보가 대부분 해제됨에 따라 25일 낮 12시 중대본을 해제했다. 이후 지난 같은 날 밤 인천, 경기, 충남 지역에 대설주의보가 발표되자 26일 0시부로 중대본 1단계를 다시 가동했다.
+</div>
+
+<h3 class="name">인천, 경기, 충남 지역에 발표됐던 대설주의보</h3>
+
+<p class="name">인천, 경기, 충남 지역에 발표됐던 대설주의보</p>
+
+
+
+</body>
+</html>
+
+

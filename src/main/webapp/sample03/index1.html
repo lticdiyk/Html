@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+CheckBox & Radio Button<br>
+<!-- 
+	CheckBox : 독립적. on/off. 취미, 관심대상	
+	Radio Button : 셋트로 구성. 
+	select
+ -->
+<br> 
+
+<form action="NewFile1.jsp">
+
+<input type="radio" name="car" value="benz" checked="checked">벤츠<br>
+<input type="radio" name="car" value="bmw">bmw<br>
+<input type="radio" name="car" value="saab">사브<br>
+<br>
+
+<input type="checkbox" name="hobby" value="패션">패션
+<input type="checkbox" name="hobby" value="음악감상" checked="checked">음악감상
+<input type="checkbox" name="hobby" value="게임">게임
+<br><br>
+
+<select name="sCar" multiple="multiple">
+	<option value="벤츠" selected="selected">benz</option>
+	<option value="비엠더블유">bmw</option>
+	<option value="사브">saab</option>
+	<option value="토요타">toyota</option>
+</select>
+<br><br>
+
+<input type="submit" value="전송">
+</form>
+
+<br><br>
+
+<textarea rows="10" cols="60" placeholder="자기소개 글작성"></textarea>
+
+<br><br>
+
+<video width="400" controls="controls">
+	<source src="./mov_bbb.mp4" type="video/mp4">  <!-- .wav -->
+</video>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
